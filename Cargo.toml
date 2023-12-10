@@ -2,6 +2,9 @@
 name = "rsa-openssl-format"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "Parse and encode RSA public keys in the format that OpenSSL uses for authorized_keys"
+repository = "https://github.com/paulgb/rsa-openssl-format"
 
 [dependencies]
 data-encoding = "2.5.0"
